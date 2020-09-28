@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>xur_domain</key>
+		<string>XURouter</string>
+		<key>xur_path</key>
+		<string>/app/test/route</string>
+		<key>xur_class</key>
+		<string>XURouterViewController</string>
+		<key>xur_unique_key</key>
+		<string>app_test_route</string>
+	</dict>
+</array>
+</plist>

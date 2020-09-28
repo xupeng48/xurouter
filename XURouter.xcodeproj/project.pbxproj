@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DBC2D351BFE83ABBFDFCD1E /* Pods_XURouterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209BA5B91FB327460D8FEF89 /* Pods_XURouterTests.framework */; };
+		A945965B2521BE25000DF221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A945965A2521BE25000DF221 /* AppDelegate.m */; };
+		A94596612521BE25000DF221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596602521BE25000DF221 /* ViewController.m */; };
+		A94596662521BE27000DF221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94596652521BE27000DF221 /* Assets.xcassets */; };
+		A945966C2521BE27000DF221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A945966B2521BE27000DF221 /* main.m */; };
+		A94596762521BE27000DF221 /* XURouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596752521BE27000DF221 /* XURouterTests.m */; };
+		A94596812521BE27000DF221 /* XURouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596802521BE27000DF221 /* XURouterUITests.m */; };
+		A945969E2521C0F9000DF221 /* XURouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A945969D2521C0F9000DF221 /* XURouter.m */; };
+		A94596A62521C185000DF221 /* XURouterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596A52521C185000DF221 /* XURouterCommand.m */; };
+		A94596AF2521C196000DF221 /* XURouterEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596AE2521C196000DF221 /* XURouterEndpoint.m */; };
+		A94596C52521C56A000DF221 /* XURouter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596C42521C56A000DF221 /* XURouter+Category.m */; };
+		A94596CB2521C5AC000DF221 /* XURouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596CA2521C5AC000DF221 /* XURouterViewController.m */; };
+		A94596D12521C5C2000DF221 /* XURouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A94596D02521C5C2000DF221 /* XURouterManager.m */; };
+		A94596DC2521CB90000DF221 /* XURouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = A94596DB2521CB90000DF221 /* XURouter.plist */; };
+		B9490A5EC654409A4AB65AF5 /* Pods_XURouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2873CF333D35460E3C2E4554 /* Pods_XURouter.framework */; };
+		FB19481AA4DC79735B8E58F6 /* Pods_XURouter_XURouterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F217A68704075F9A21908EF /* Pods_XURouter_XURouterUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94596722521BE27000DF221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A945964E2521BE25000DF221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94596552521BE25000DF221;
+			remoteInfo = XURouter;
+		};
+		A945967D2521BE27000DF221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A945964E2521BE25000DF221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94596552521BE25000DF221;
+			remoteInfo = XURouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209BA5B91FB327460D8FEF89 /* Pods_XURouterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XURouterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2873CF333D35460E3C2E4554 /* Pods_XURouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XURouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F217A68704075F9A21908EF /* Pods_XURouter_XURouterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XURouter_XURouterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6D90FA1CBC2C505A08AF3E /* Pods-XURouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XURouter.release.xcconfig"; path = "Target Support Files/Pods-XURouter/Pods-XURouter.release.xcconfig"; sourceTree = "<group>"; };
+		75E8430A47DD57725ACED207 /* Pods-XURouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XURouter.debug.xcconfig"; path = "Target Support Files/Pods-XURouter/Pods-XURouter.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA925BB27F506ACFC1DE1D9 /* Pods-XURouter-XURouterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XURouter-XURouterUITests.debug.xcconfig"; path = "Target Support Files/Pods-XURouter-XURouterUITests/Pods-XURouter-XURouterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C534A3B4366F4B3560C0176 /* Pods-XURouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XURouterTests.release.xcconfig"; path = "Target Support Files/Pods-XURouterTests/Pods-XURouterTests.release.xcconfig"; sourceTree = "<group>"; };
+		A94596562521BE25000DF221 /* XURouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XURouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94596592521BE25000DF221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A945965A2521BE25000DF221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A945965F2521BE25000DF221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A94596602521BE25000DF221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A94596652521BE27000DF221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A945966A2521BE27000DF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A945966B2521BE27000DF221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94596712521BE27000DF221 /* XURouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XURouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94596752521BE27000DF221 /* XURouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouterTests.m; sourceTree = "<group>"; };
+		A94596772521BE27000DF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A945967C2521BE27000DF221 /* XURouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XURouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94596802521BE27000DF221 /* XURouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouterUITests.m; sourceTree = "<group>"; };
+		A94596822521BE27000DF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A945969C2521C0F9000DF221 /* XURouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouter.h; sourceTree = "<group>"; };
+		A945969D2521C0F9000DF221 /* XURouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouter.m; sourceTree = "<group>"; };
+		A94596A22521C157000DF221 /* XURouterable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterable.h; sourceTree = "<group>"; };
+		A94596A32521C16D000DF221 /* XURouterMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterMacro.h; sourceTree = "<group>"; };
+		A94596A42521C185000DF221 /* XURouterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterCommand.h; sourceTree = "<group>"; };
+		A94596A52521C185000DF221 /* XURouterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouterCommand.m; sourceTree = "<group>"; };
+		A94596AD2521C196000DF221 /* XURouterEndpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterEndpoint.h; sourceTree = "<group>"; };
+		A94596AE2521C196000DF221 /* XURouterEndpoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouterEndpoint.m; sourceTree = "<group>"; };
+		A94596B72521C517000DF221 /* XURouterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterKit.h; sourceTree = "<group>"; };
+		A94596C32521C56A000DF221 /* XURouter+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XURouter+Category.h"; sourceTree = "<group>"; };
+		A94596C42521C56A000DF221 /* XURouter+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XURouter+Category.m"; sourceTree = "<group>"; };
+		A94596C92521C5AC000DF221 /* XURouterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterViewController.h; sourceTree = "<group>"; };
+		A94596CA2521C5AC000DF221 /* XURouterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouterViewController.m; sourceTree = "<group>"; };
+		A94596CF2521C5C2000DF221 /* XURouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XURouterManager.h; sourceTree = "<group>"; };
+		A94596D02521C5C2000DF221 /* XURouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XURouterManager.m; sourceTree = "<group>"; };
+		A94596DB2521CB90000DF221 /* XURouter.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = XURouter.plist; sourceTree = "<group>"; };
+		CFD5F8BDDEFC9712E940E348 /* Pods-XURouter-XURouterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XURouter-XURouterUITests.release.xcconfig"; path = "Target Support Files/Pods-XURouter-XURouterUITests/Pods-XURouter-XURouterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBC37D1EA468687AC8DF81D0 /* Pods-XURouterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XURouterTests.debug.xcconfig"; path = "Target Support Files/Pods-XURouterTests/Pods-XURouterTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94596532521BE25000DF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9490A5EC654409A4AB65AF5 /* Pods_XURouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945966E2521BE27000DF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBC2D351BFE83ABBFDFCD1E /* Pods_XURouterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94596792521BE27000DF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB19481AA4DC79735B8E58F6 /* Pods_XURouter_XURouterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EA51190F80AE533E1FF661 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75E8430A47DD57725ACED207 /* Pods-XURouter.debug.xcconfig */,
+				5F6D90FA1CBC2C505A08AF3E /* Pods-XURouter.release.xcconfig */,
+				7BA925BB27F506ACFC1DE1D9 /* Pods-XURouter-XURouterUITests.debug.xcconfig */,
+				CFD5F8BDDEFC9712E940E348 /* Pods-XURouter-XURouterUITests.release.xcconfig */,
+				FBC37D1EA468687AC8DF81D0 /* Pods-XURouterTests.debug.xcconfig */,
+				9C534A3B4366F4B3560C0176 /* Pods-XURouterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A945964D2521BE25000DF221 = {
+			isa = PBXGroup;
+			children = (
+				A945969B2521C0D4000DF221 /* Source */,
+				A94596582521BE25000DF221 /* XURouter */,
+				A94596742521BE27000DF221 /* XURouterTests */,
+				A945967F2521BE27000DF221 /* XURouterUITests */,
+				A94596572521BE25000DF221 /* Products */,
+				27EA51190F80AE533E1FF661 /* Pods */,
+				CB61CE1AA65D93A18D6DB6B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A94596572521BE25000DF221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94596562521BE25000DF221 /* XURouter.app */,
+				A94596712521BE27000DF221 /* XURouterTests.xctest */,
+				A945967C2521BE27000DF221 /* XURouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94596582521BE25000DF221 /* XURouter */ = {
+			isa = PBXGroup;
+			children = (
+				A94596B62521C4FB000DF221 /* Router */,
+				A94596592521BE25000DF221 /* AppDelegate.h */,
+				A945965A2521BE25000DF221 /* AppDelegate.m */,
+				A945965F2521BE25000DF221 /* ViewController.h */,
+				A94596602521BE25000DF221 /* ViewController.m */,
+				A94596C92521C5AC000DF221 /* XURouterViewController.h */,
+				A94596CA2521C5AC000DF221 /* XURouterViewController.m */,
+				A94596CF2521C5C2000DF221 /* XURouterManager.h */,
+				A94596D02521C5C2000DF221 /* XURouterManager.m */,
+				A94596652521BE27000DF221 /* Assets.xcassets */,
+				A945966A2521BE27000DF221 /* Info.plist */,
+				A94596DB2521CB90000DF221 /* XURouter.plist */,
+				A945966B2521BE27000DF221 /* main.m */,
+			);
+			path = XURouter;
+			sourceTree = "<group>";
+		};
+		A94596742521BE27000DF221 /* XURouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94596752521BE27000DF221 /* XURouterTests.m */,
+				A94596772521BE27000DF221 /* Info.plist */,
+			);
+			path = XURouterTests;
+			sourceTree = "<group>";
+		};
+		A945967F2521BE27000DF221 /* XURouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94596802521BE27000DF221 /* XURouterUITests.m */,
+				A94596822521BE27000DF221 /* Info.plist */,
+			);
+			path = XURouterUITests;
+			sourceTree = "<group>";
+		};
+		A94596972521C0A5000DF221 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A945969C2521C0F9000DF221 /* XURouter.h */,
+				A945969D2521C0F9000DF221 /* XURouter.m */,
+				A94596A22521C157000DF221 /* XURouterable.h */,
+				A94596A32521C16D000DF221 /* XURouterMacro.h */,
+				A94596A42521C185000DF221 /* XURouterCommand.h */,
+				A94596A52521C185000DF221 /* XURouterCommand.m */,
+				A94596AD2521C196000DF221 /* XURouterEndpoint.h */,
+				A94596AE2521C196000DF221 /* XURouterEndpoint.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A945969B2521C0D4000DF221 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A94596972521C0A5000DF221 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A94596B62521C4FB000DF221 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A94596B72521C517000DF221 /* XURouterKit.h */,
+				A94596C32521C56A000DF221 /* XURouter+Category.h */,
+				A94596C42521C56A000DF221 /* XURouter+Category.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CB61CE1AA65D93A18D6DB6B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2873CF333D35460E3C2E4554 /* Pods_XURouter.framework */,
+				2F217A68704075F9A21908EF /* Pods_XURouter_XURouterUITests.framework */,
+				209BA5B91FB327460D8FEF89 /* Pods_XURouterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94596552521BE25000DF221 /* XURouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94596852521BE27000DF221 /* Build configuration list for PBXNativeTarget "XURouter" */;
+			buildPhases = (
+				A70D628F24FD49B350F7D33F /* [CP] Check Pods Manifest.lock */,
+				A94596522521BE25000DF221 /* Sources */,
+				A94596532521BE25000DF221 /* Frameworks */,
+				A94596542521BE25000DF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XURouter;
+			productName = XURouter;
+			productReference = A94596562521BE25000DF221 /* XURouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94596702521BE27000DF221 /* XURouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94596882521BE27000DF221 /* Build configuration list for PBXNativeTarget "XURouterTests" */;
+			buildPhases = (
+				93FCAD266618CFD08CDB3D3A /* [CP] Check Pods Manifest.lock */,
+				A945966D2521BE27000DF221 /* Sources */,
+				A945966E2521BE27000DF221 /* Frameworks */,
+				A945966F2521BE27000DF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94596732521BE27000DF221 /* PBXTargetDependency */,
+			);
+			name = XURouterTests;
+			productName = XURouterTests;
+			productReference = A94596712521BE27000DF221 /* XURouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A945967B2521BE27000DF221 /* XURouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A945968B2521BE27000DF221 /* Build configuration list for PBXNativeTarget "XURouterUITests" */;
+			buildPhases = (
+				79AB55F298460A6BBFE1204D /* [CP] Check Pods Manifest.lock */,
+				A94596782521BE27000DF221 /* Sources */,
+				A94596792521BE27000DF221 /* Frameworks */,
+				A945967A2521BE27000DF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A945967E2521BE27000DF221 /* PBXTargetDependency */,
+			);
+			name = XURouterUITests;
+			productName = XURouterUITests;
+			productReference = A945967C2521BE27000DF221 /* XURouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A945964E2521BE25000DF221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A94596552521BE25000DF221 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					A94596702521BE27000DF221 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A94596552521BE25000DF221;
+					};
+					A945967B2521BE27000DF221 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A94596552521BE25000DF221;
+					};
+				};
+			};
+			buildConfigurationList = A94596512521BE25000DF221 /* Build configuration list for PBXProject "XURouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A945964D2521BE25000DF221;
+			productRefGroup = A94596572521BE25000DF221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94596552521BE25000DF221 /* XURouter */,
+				A94596702521BE27000DF221 /* XURouterTests */,
+				A945967B2521BE27000DF221 /* XURouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94596542521BE25000DF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94596DC2521CB90000DF221 /* XURouter.plist in Resources */,
+				A94596662521BE27000DF221 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945966F2521BE27000DF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945967A2521BE27000DF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79AB55F298460A6BBFE1204D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XURouter-XURouterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FCAD266618CFD08CDB3D3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XURouterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70D628F24FD49B350F7D33F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XURouter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94596522521BE25000DF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94596CB2521C5AC000DF221 /* XURouterViewController.m in Sources */,
+				A945969E2521C0F9000DF221 /* XURouter.m in Sources */,
+				A94596A62521C185000DF221 /* XURouterCommand.m in Sources */,
+				A94596612521BE25000DF221 /* ViewController.m in Sources */,
+				A94596AF2521C196000DF221 /* XURouterEndpoint.m in Sources */,
+				A94596D12521C5C2000DF221 /* XURouterManager.m in Sources */,
+				A945965B2521BE25000DF221 /* AppDelegate.m in Sources */,
+				A945966C2521BE27000DF221 /* main.m in Sources */,
+				A94596C52521C56A000DF221 /* XURouter+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945966D2521BE27000DF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94596762521BE27000DF221 /* XURouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94596782521BE27000DF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94596812521BE27000DF221 /* XURouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94596732521BE27000DF221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94596552521BE25000DF221 /* XURouter */;
+			targetProxy = A94596722521BE27000DF221 /* PBXContainerItemProxy */;
+		};
+		A945967E2521BE27000DF221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94596552521BE25000DF221 /* XURouter */;
+			targetProxy = A945967D2521BE27000DF221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A94596832521BE27000DF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A94596842521BE27000DF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94596862521BE27000DF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E8430A47DD57725ACED207 /* Pods-XURouter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66YWYW3AL7;
+				INFOPLIST_FILE = XURouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xupeng.XURouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94596872521BE27000DF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6D90FA1CBC2C505A08AF3E /* Pods-XURouter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66YWYW3AL7;
+				INFOPLIST_FILE = XURouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xupeng.XURouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A94596892521BE27000DF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC37D1EA468687AC8DF81D0 /* Pods-XURouterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66YWYW3AL7;
+				INFOPLIST_FILE = XURouterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xupeng.XURouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XURouter.app/XURouter";
+			};
+			name = Debug;
+		};
+		A945968A2521BE27000DF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C534A3B4366F4B3560C0176 /* Pods-XURouterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66YWYW3AL7;
+				INFOPLIST_FILE = XURouterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xupeng.XURouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XURouter.app/XURouter";
+			};
+			name = Release;
+		};
+		A945968C2521BE27000DF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA925BB27F506ACFC1DE1D9 /* Pods-XURouter-XURouterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66YWYW3AL7;
+				INFOPLIST_FILE = XURouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xupeng.XURouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XURouter;
+			};
+			name = Debug;
+		};
+		A945968D2521BE27000DF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD5F8BDDEFC9712E940E348 /* Pods-XURouter-XURouterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66YWYW3AL7;
+				INFOPLIST_FILE = XURouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xupeng.XURouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XURouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94596512521BE25000DF221 /* Build configuration list for PBXProject "XURouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94596832521BE27000DF221 /* Debug */,
+				A94596842521BE27000DF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94596852521BE27000DF221 /* Build configuration list for PBXNativeTarget "XURouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94596862521BE27000DF221 /* Debug */,
+				A94596872521BE27000DF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94596882521BE27000DF221 /* Build configuration list for PBXNativeTarget "XURouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94596892521BE27000DF221 /* Debug */,
+				A945968A2521BE27000DF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A945968B2521BE27000DF221 /* Build configuration list for PBXNativeTarget "XURouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A945968C2521BE27000DF221 /* Debug */,
+				A945968D2521BE27000DF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A945964E2521BE25000DF221 /* Project object */;
+}

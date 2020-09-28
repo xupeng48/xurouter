@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1460AB6415E4EE35E730C396A0D731DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		206049077A0A7591C9D76FDC9D96C7D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		461704B42744A0F7C04CE1D96CD0E720 /* Pods-XURouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0D72812E085A5E25A1D0155AF1E9EB /* Pods-XURouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C6D21F12A950DC6755D95AAE6D3013 /* Pods-XURouterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5990478E180AD6CB2ECABE4CAB6A7B8A /* Pods-XURouterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550D9178A551DD932888F99E7C57DAB6 /* Pods-XURouterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A8A83DF284B042F8029FFF008783C /* Pods-XURouterTests-dummy.m */; };
+		5C5118C19CF4AACB4C6B8CA9F05728B4 /* Pods-XURouter-XURouterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 311BCE8C1BD4CB9056D7C466D559BF6C /* Pods-XURouter-XURouterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEB3D3210C7AA72483B044331D0D501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CAC09EBC579F69AF516E70F945C559A /* Pods-XURouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21C158A8BE4CF2C7A8C08AA98BA92F /* Pods-XURouter-dummy.m */; };
+		9D673E2627A2B3C00A91177F09DB8AF5 /* Pods-XURouter-XURouterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB71A2FCD0C1E12FADCCA1B5391280EA /* Pods-XURouter-XURouterUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		989BE2E9E91AA8F7254ED621545C9839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC026861714C685778402F641DC30AC;
+			remoteInfo = "Pods-XURouter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AD9A3D2B7168336D4596C2677FE4D3 /* Pods_XURouterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XURouterTests.framework; path = "Pods-XURouterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F21C158A8BE4CF2C7A8C08AA98BA92F /* Pods-XURouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XURouter-dummy.m"; sourceTree = "<group>"; };
+		117C41102087ED4484888B45CD20E431 /* Pods-XURouter-XURouterUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XURouter-XURouterUITests-Info.plist"; sourceTree = "<group>"; };
+		1E761D889AB9266B59A7F8EDF11916BC /* Pods-XURouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XURouter.modulemap"; sourceTree = "<group>"; };
+		22D4600FEBF9FDAD4AB950D8BF046BED /* Pods-XURouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XURouter.release.xcconfig"; sourceTree = "<group>"; };
+		311BCE8C1BD4CB9056D7C466D559BF6C /* Pods-XURouter-XURouterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XURouter-XURouterUITests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A0D72812E085A5E25A1D0155AF1E9EB /* Pods-XURouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XURouter-umbrella.h"; sourceTree = "<group>"; };
+		429C0732354226977DA5B26B04C3B90E /* Pods-XURouterTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XURouterTests-Info.plist"; sourceTree = "<group>"; };
+		43E484DB11A0AFA87902C1AF4C2731EC /* Pods_XURouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XURouter.framework; path = "Pods-XURouter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ED3ECE66E9835034AFDB27E7463466 /* Pods-XURouterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XURouterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5442F74F2E31C099A9D22765385C1B89 /* Pods-XURouter-XURouterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XURouter-XURouterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55AC9BC9AED1310284F78E9D9FCC2046 /* Pods-XURouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XURouterTests.release.xcconfig"; sourceTree = "<group>"; };
+		56EA6A0B206FC5CDAB681280E588EDAF /* Pods-XURouter-XURouterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XURouter-XURouterUITests.modulemap"; sourceTree = "<group>"; };
+		58D533707831FC72E2D9DA2ACEA06300 /* Pods-XURouter-XURouterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XURouter-XURouterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5990478E180AD6CB2ECABE4CAB6A7B8A /* Pods-XURouterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XURouterTests-umbrella.h"; sourceTree = "<group>"; };
+		5DAE7478AA98B5ABCF413E8D9251C98C /* Pods-XURouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XURouter-Info.plist"; sourceTree = "<group>"; };
+		64F7CD666307C1F1A56DFDBFDAC5A011 /* Pods-XURouterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XURouterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A4A8A83DF284B042F8029FFF008783C /* Pods-XURouterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XURouterTests-dummy.m"; sourceTree = "<group>"; };
+		7BA0FFD6D44C9FEF663E34E8D22EBCE4 /* Pods-XURouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XURouter.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB1DA361E1A9F3D013BC0791EF714A6 /* Pods-XURouterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XURouterTests.modulemap"; sourceTree = "<group>"; };
+		A1B28A38C87898B5AD42E5BC765463C8 /* Pods-XURouter-XURouterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XURouter-XURouterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC811D0B9444368EE082AE882447F23 /* Pods-XURouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XURouter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE52FB7D080612F0D01A153C880666E8 /* Pods-XURouterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XURouterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB71A2FCD0C1E12FADCCA1B5391280EA /* Pods-XURouter-XURouterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XURouter-XURouterUITests-dummy.m"; sourceTree = "<group>"; };
+		D14749A73B8DCFBBA221F241B0056587 /* Pods-XURouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XURouter-acknowledgements.plist"; sourceTree = "<group>"; };
+		D773618B1AB144F7ED0203BC7C4F4E86 /* Pods_XURouter_XURouterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XURouter_XURouterUITests.framework; path = "Pods-XURouter-XURouterUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24C0BC80A1B1E9CA58F266D89ED4901 /* Pods-XURouter-XURouterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XURouter-XURouterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6148E969A5E3155221AB2E4BA4EEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1460AB6415E4EE35E730C396A0D731DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792D5318A3E9124360FFFCA57CA02295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206049077A0A7591C9D76FDC9D96C7D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA2A8758472F0B7FC8231FE2E040B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB3D3210C7AA72483B044331D0D501 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36A997E785F0581810A77BD00FC349F1 /* Pods-XURouter */ = {
+			isa = PBXGroup;
+			children = (
+				1E761D889AB9266B59A7F8EDF11916BC /* Pods-XURouter.modulemap */,
+				ABC811D0B9444368EE082AE882447F23 /* Pods-XURouter-acknowledgements.markdown */,
+				D14749A73B8DCFBBA221F241B0056587 /* Pods-XURouter-acknowledgements.plist */,
+				0F21C158A8BE4CF2C7A8C08AA98BA92F /* Pods-XURouter-dummy.m */,
+				5DAE7478AA98B5ABCF413E8D9251C98C /* Pods-XURouter-Info.plist */,
+				3A0D72812E085A5E25A1D0155AF1E9EB /* Pods-XURouter-umbrella.h */,
+				7BA0FFD6D44C9FEF663E34E8D22EBCE4 /* Pods-XURouter.debug.xcconfig */,
+				22D4600FEBF9FDAD4AB950D8BF046BED /* Pods-XURouter.release.xcconfig */,
+			);
+			name = "Pods-XURouter";
+			path = "Target Support Files/Pods-XURouter";
+			sourceTree = "<group>";
+		};
+		62C3C8E153869E2D4D92AC38686A248B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36A997E785F0581810A77BD00FC349F1 /* Pods-XURouter */,
+				EA5D1D126FD5ED9F225A8E086EDFB186 /* Pods-XURouter-XURouterUITests */,
+				D5716941DA4416F02950D1934AFB2F6A /* Pods-XURouterTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78903F9E07D58C815357EC738BE05078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E484DB11A0AFA87902C1AF4C2731EC /* Pods_XURouter.framework */,
+				D773618B1AB144F7ED0203BC7C4F4E86 /* Pods_XURouter_XURouterUITests.framework */,
+				08AD9A3D2B7168336D4596C2677FE4D3 /* Pods_XURouterTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				78903F9E07D58C815357EC738BE05078 /* Products */,
+				62C3C8E153869E2D4D92AC38686A248B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5716941DA4416F02950D1934AFB2F6A /* Pods-XURouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB1DA361E1A9F3D013BC0791EF714A6 /* Pods-XURouterTests.modulemap */,
+				46ED3ECE66E9835034AFDB27E7463466 /* Pods-XURouterTests-acknowledgements.markdown */,
+				AE52FB7D080612F0D01A153C880666E8 /* Pods-XURouterTests-acknowledgements.plist */,
+				6A4A8A83DF284B042F8029FFF008783C /* Pods-XURouterTests-dummy.m */,
+				429C0732354226977DA5B26B04C3B90E /* Pods-XURouterTests-Info.plist */,
+				5990478E180AD6CB2ECABE4CAB6A7B8A /* Pods-XURouterTests-umbrella.h */,
+				64F7CD666307C1F1A56DFDBFDAC5A011 /* Pods-XURouterTests.debug.xcconfig */,
+				55AC9BC9AED1310284F78E9D9FCC2046 /* Pods-XURouterTests.release.xcconfig */,
+			);
+			name = "Pods-XURouterTests";
+			path = "Target Support Files/Pods-XURouterTests";
+			sourceTree = "<group>";
+		};
+		EA5D1D126FD5ED9F225A8E086EDFB186 /* Pods-XURouter-XURouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56EA6A0B206FC5CDAB681280E588EDAF /* Pods-XURouter-XURouterUITests.modulemap */,
+				5442F74F2E31C099A9D22765385C1B89 /* Pods-XURouter-XURouterUITests-acknowledgements.markdown */,
+				F24C0BC80A1B1E9CA58F266D89ED4901 /* Pods-XURouter-XURouterUITests-acknowledgements.plist */,
+				CB71A2FCD0C1E12FADCCA1B5391280EA /* Pods-XURouter-XURouterUITests-dummy.m */,
+				117C41102087ED4484888B45CD20E431 /* Pods-XURouter-XURouterUITests-Info.plist */,
+				311BCE8C1BD4CB9056D7C466D559BF6C /* Pods-XURouter-XURouterUITests-umbrella.h */,
+				A1B28A38C87898B5AD42E5BC765463C8 /* Pods-XURouter-XURouterUITests.debug.xcconfig */,
+				58D533707831FC72E2D9DA2ACEA06300 /* Pods-XURouter-XURouterUITests.release.xcconfig */,
+			);
+			name = "Pods-XURouter-XURouterUITests";
+			path = "Target Support Files/Pods-XURouter-XURouterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CFE422F8A730C162EB3022CAEC7B91F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461704B42744A0F7C04CE1D96CD0E720 /* Pods-XURouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0A2FB6BE83018AB5853DBF4DA72BFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5118C19CF4AACB4C6B8CA9F05728B4 /* Pods-XURouter-XURouterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2132B2D18334E4DBDB64B6C51E1AB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C6D21F12A950DC6755D95AAE6D3013 /* Pods-XURouterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		414C1B4F7464EE93128CD590A3749517 /* Pods-XURouter-XURouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016A9F60EE20D5B468AA6B417805BA0E /* Build configuration list for PBXNativeTarget "Pods-XURouter-XURouterUITests" */;
+			buildPhases = (
+				AB0A2FB6BE83018AB5853DBF4DA72BFC /* Headers */,
+				F790AA790259114EA244A9C0A8130560 /* Sources */,
+				792D5318A3E9124360FFFCA57CA02295 /* Frameworks */,
+				5A4C6479AB2674361B70143751C2C1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XURouter-XURouterUITests";
+			productName = "Pods-XURouter-XURouterUITests";
+			productReference = D773618B1AB144F7ED0203BC7C4F4E86 /* Pods_XURouter_XURouterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBC026861714C685778402F641DC30AC /* Pods-XURouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21408A67EDDC5439EFDE51D9E0DECC73 /* Build configuration list for PBXNativeTarget "Pods-XURouter" */;
+			buildPhases = (
+				2CFE422F8A730C162EB3022CAEC7B91F /* Headers */,
+				754F5DCEADD43C40CA7DD6EA30D806EF /* Sources */,
+				7DA2A8758472F0B7FC8231FE2E040B2B /* Frameworks */,
+				55A529EEACCF769778678074E722439F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XURouter";
+			productName = "Pods-XURouter";
+			productReference = 43E484DB11A0AFA87902C1AF4C2731EC /* Pods_XURouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9545474C9063A46709EF3A2697615F4 /* Pods-XURouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8365D2730EE6B5ED1CE9AAEC4E7DDF /* Build configuration list for PBXNativeTarget "Pods-XURouterTests" */;
+			buildPhases = (
+				FE2132B2D18334E4DBDB64B6C51E1AB0 /* Headers */,
+				7047368AE7915D2880BEE52367CE1853 /* Sources */,
+				2D6148E969A5E3155221AB2E4BA4EEF3 /* Frameworks */,
+				0F64A36B6986E424B2D2175ED3C5EFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8087AFCAE6BC7E23E205932A767C1F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-XURouterTests";
+			productName = "Pods-XURouterTests";
+			productReference = 08AD9A3D2B7168336D4596C2677FE4D3 /* Pods_XURouterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78903F9E07D58C815357EC738BE05078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC026861714C685778402F641DC30AC /* Pods-XURouter */,
+				414C1B4F7464EE93128CD590A3749517 /* Pods-XURouter-XURouterUITests */,
+				C9545474C9063A46709EF3A2697615F4 /* Pods-XURouterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F64A36B6986E424B2D2175ED3C5EFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A529EEACCF769778678074E722439F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C6479AB2674361B70143751C2C1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7047368AE7915D2880BEE52367CE1853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550D9178A551DD932888F99E7C57DAB6 /* Pods-XURouterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754F5DCEADD43C40CA7DD6EA30D806EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAC09EBC579F69AF516E70F945C559A /* Pods-XURouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F790AA790259114EA244A9C0A8130560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D673E2627A2B3C00A91177F09DB8AF5 /* Pods-XURouter-XURouterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8087AFCAE6BC7E23E205932A767C1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XURouter";
+			target = BBC026861714C685778402F641DC30AC /* Pods-XURouter */;
+			targetProxy = 989BE2E9E91AA8F7254ED621545C9839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E951BED0CA36EE645C4477348FFC696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B28A38C87898B5AD42E5BC765463C8 /* Pods-XURouter-XURouterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XURouter-XURouterUITests/Pods-XURouter-XURouterUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XURouter-XURouterUITests/Pods-XURouter-XURouterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7861AE9D366909849CE4C014C825F6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F7CD666307C1F1A56DFDBFDAC5A011 /* Pods-XURouterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XURouterTests/Pods-XURouterTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XURouterTests/Pods-XURouterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B90399B7F660C011D2248ACA9514B10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AC9BC9AED1310284F78E9D9FCC2046 /* Pods-XURouterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XURouterTests/Pods-XURouterTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XURouterTests/Pods-XURouterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D96F4A9B13C9D6216B010C72F110595A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D4600FEBF9FDAD4AB950D8BF046BED /* Pods-XURouter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XURouter/Pods-XURouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XURouter/Pods-XURouter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9C4AFE21304024109F5F1BBCC266FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D533707831FC72E2D9DA2ACEA06300 /* Pods-XURouter-XURouterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XURouter-XURouterUITests/Pods-XURouter-XURouterUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XURouter-XURouterUITests/Pods-XURouter-XURouterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4486D56EAE8D409DDD725815DD83EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA0FFD6D44C9FEF663E34E8D22EBCE4 /* Pods-XURouter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XURouter/Pods-XURouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XURouter/Pods-XURouter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016A9F60EE20D5B468AA6B417805BA0E /* Build configuration list for PBXNativeTarget "Pods-XURouter-XURouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E951BED0CA36EE645C4477348FFC696 /* Debug */,
+				D9C4AFE21304024109F5F1BBCC266FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21408A67EDDC5439EFDE51D9E0DECC73 /* Build configuration list for PBXNativeTarget "Pods-XURouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4486D56EAE8D409DDD725815DD83EA1 /* Debug */,
+				D96F4A9B13C9D6216B010C72F110595A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8365D2730EE6B5ED1CE9AAEC4E7DDF /* Build configuration list for PBXNativeTarget "Pods-XURouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7861AE9D366909849CE4C014C825F6D5 /* Debug */,
+				B90399B7F660C011D2248ACA9514B10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
